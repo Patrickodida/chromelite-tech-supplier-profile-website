@@ -143,3 +143,64 @@ main {
 .page-header p {
     margin: 5px 0 25px;
 }
+
+/* Pricing page - Table */
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    color: #003153;
+    padding-bottom: 10px;
+}
+
+th, td {
+    padding:  12px 14px;
+    border: 1px solid #D0D7DE;
+    text-align: left;
+}
+
+thead th {
+    background-color: #003153;
+    color: #FFFFFF;
+}
+
+td.category {
+    background-color: #FFF1E6;
+    color: #003153;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+tbody tr.group-start td {
+    border-top: 3px solid #003153;
+}
+
+.num {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #F4F6F8;
+}
+
+tfoot .label {
+    text-align: right;
+}
+
+tfoot tr.grand td {
+    background: #FF6600;
+    color: #003153;
+    font-size: 1.1rem;
+}
+
